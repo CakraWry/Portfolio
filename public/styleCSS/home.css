@@ -1,0 +1,75 @@
+body {
+    background-color: #202020;
+    font-family: poppins;
+}
+.listSosmed {
+    width: 36px;
+}
+.nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.navbar-nav .nav-link.active {
+    color: #0094ff !important;
+}
+
+.homeSection {
+    margin-bottom: 11%;
+}
+.cakra {
+    font-weight: 700;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin: 50% 0% 0% 0%;
+}
+.wirya {
+    font-size: 50px;
+    text-transform: capitalize;
+    margin: 0;
+}
+.sosmed {
+    display: flex;
+    font-size: 18px;
+}
+.sosmed a {
+    text-decoration: none;
+    color: white;
+}
+.sosmed span {
+    margin: 0% 2% 0% 2%;
+}
+.mariBerteman {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 188px;
+    height: 55px;
+    border: 2px solid #0094ff;
+    margin-top: 5%;
+}
+.mariBerteman a {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+.introduction {
+    color: #0094ff;
+    margin: 0 0 2% 0;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+}
+.judulIntro {
+    font-size: 30px;
+    color: white;
+}
+
+.Section {
+    margin: 3% 0% 0% 0%;
+    width: 100%;
+    height: 100vh;
+    border: 0;
+}

@@ -1,0 +1,22 @@
+body {
+    background-color: #202020;
+    font-family: poppins;
+    color: white;
+}
+
+h2 {
+    font-size: 18px;
+    color: #0094ff;
+    letter-spacing: 5px;
+}
+
+.cardService {
+    height: 280px;
+    background-color: #323232;
+}
+
+.icon {
+    height: 30%;
+    object-fit: cover;
+    margin-top: 35%;
+}

@@ -1,0 +1,91 @@
+body {
+    background-color: #202020;
+    font-family: poppins;
+    color: white;
+}
+
+h2 {
+    font-size: 18px;
+    color: #0094ff;
+    letter-spacing: 5px;
+}
+
+.cardProject {
+    height: 280px;
+    background-color: #323232;
+}
+
+.category {
+    color: white;
+    position: relative;
+    padding-bottom: 8px; /* Tinggi garis bawah */
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.category:hover {
+    color: #0094ff; /* Warna teks saat dihover */
+}
+
+.category.active {
+    color: #0094ff; /* Warna teks saat diklik */
+}
+
+.category.active::after {
+    width: 40px; /* Lebar garis bawah saat tombol aktif */
+}
+
+.category::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%; /* Mulai dari tengah */
+    transform: translateX(-50%); /* Geser ke kiri sejauh setengah lebar */
+    width: 0;
+    height: 2px; /* Ketebalan garis bawah */
+    background-color: #0094ff; /* Warna garis bawah */
+    transition: width 0.3s ease; /* Animasi transisi */
+}
+
+.category:hover::after {
+    width: 40px; /* Lebar garis bawah saat dihover */
+}
+
+.foto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.popup {
+    height: 100%;
+    display: none;
+    padding-left: 2.2%;
+    padding-right: 0.3%;
+    position: static;
+}
+
+.borderPopup {
+    background-color: #323232;
+    position: relative;
+}
+
+#closePopup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 999;
+}
+
+#namaProject {
+    font-weight: 700;
+    color: #0094ff;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#kontenProject {
+    font-size: 16px;
+}

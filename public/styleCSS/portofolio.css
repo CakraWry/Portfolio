@@ -1,0 +1,75 @@
+body {
+    background-color: #202020;
+    font-family: poppins;
+    color: white;
+}
+
+h2 {
+    font-size: 18px;
+    color: #0094ff;
+    letter-spacing: 5px;
+}
+
+.judul {
+    font-size: 20px;
+    color: #0094ff;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 2%;
+    margin-bottom: 10px;
+}
+
+.kolom {
+    border-left: 1px solid #a6a6a6;
+    border-bottom: 1px solid #a6a6a6;
+    text-align: left;
+    align-content: center;
+    padding-top: 1%;
+}
+
+.col {
+    border-left: 1px solid #a6a6a6;
+    text-align: left;
+    padding-top: 1%;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 120%;
+}
+
+.kolomImageUtama {
+    height: 389px;
+}
+
+.kolomImage {
+    height: 192px;
+}
+
+.foto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.kolomImgOrgan {
+    margin-right: 5px;
+    background-color: aqua;
+    padding: 0;
+    border: 0;
+    height: 226px;
+}
+
+.zoom {
+    transition: transform 0.2s; /* Animation */
+}
+
+.zoom:hover {
+    transform: scale(
+        1.5
+    ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
